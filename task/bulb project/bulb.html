@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 500px;
+        height: 500px;
+        border: 1px solid black;
+        margin-left: 250px;
+        background-color: white;
+      }
+
+      .btn {
+        margin-left: 500px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img id="bulb1" src="hd-light-bulb-on-off-png-31626305624ofqq78jchu.png" alt="">
+    </div>
+    <div class="btn">
+      <button id="btnon">ON</button>
+      <button id="btnoff">OFF</button>
+    </div>
+    <script>
+      let btnonob = document.getElementById("btnon");
+
+      btnonob.addEventListener("click", () => {
+        let bulbob = document.getElementById("bulb1");
+
+        bulbob.setAttribute("src", "onbulb.jpg.jpg");
+      });
+
+
+      
+
+
+
+    </script>
+  </body>
+</html>

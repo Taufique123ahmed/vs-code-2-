@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main{
+            width: 1200px;
+            background-color: grey;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 100px 200px 200px 100px;
+            grid-gap: 20px;
+        
+            
+        }
+        nav{
+            grid-column: 1 / -1;
+        }
+        aside{
+            grid-row: 2 span 2;
+        }
+    
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav>navbar</nav>
+
+        <aside>aside side section</aside>
+
+        <article class="box1">box1</article>
+
+        <aricle class="box2">box2</aricle>
+
+        <article class="box3">box3</article>
+
+        <div class="content"></div>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
